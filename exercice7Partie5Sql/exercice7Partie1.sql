@@ -1,2 +1,4 @@
-USE webDevelopment;
-SELECT * FROM `languages` ORDER BY `languages` ASC;
+USE `webDevelopment`;
+SELECT `language`, `version`
+FROM `languages`
+ ORDER BY `language` ASC;

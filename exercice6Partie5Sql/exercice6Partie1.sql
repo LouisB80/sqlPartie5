@@ -1,2 +1,7 @@
 USE `webDevelopment`;
-SELECT * FROM `languages` WHERE `languages` != 'PHP';
+SELECT `language`, `version`
+FROM `languages`
+ WHERE `language` != 'PHP';
+ -- On peut aussi utiliser:
+-- WHERE NOT
+-- <>

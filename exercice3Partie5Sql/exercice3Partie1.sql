@@ -1,2 +1,5 @@
 USE `webDevelopment`;
-SELECT `version` FROM `languages` WHERE `languages` = 'PHP' OR `languages` = 'JavaScript';
+SELECT `language`, `version`
+FROM `languages`
+  WHERE `language` = 'PHP'
+   OR `language` = 'JavaScript';

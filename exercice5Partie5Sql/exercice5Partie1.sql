@@ -1,2 +1,5 @@
 USE `webDevelopment`;
-SELECT * FROM `languages` WHERE `languages` = 'JavaScript' LIMIT 2;
+SELECT `language`, `version`
+FROM `languages`
+ WHERE `language` = 'JavaScript'
+ LIMIT 2;

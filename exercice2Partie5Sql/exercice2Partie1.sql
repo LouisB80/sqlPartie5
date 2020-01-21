@@ -1,2 +1,3 @@
 USE `webDevelopment`;
-SELECT `version` FROM `languages` WHERE `languages` = 'Php' ;
+SELECT `language`, `version` FROM `languages`
+WHERE `language` = 'PHP' ;
